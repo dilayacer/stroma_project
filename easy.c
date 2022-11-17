@@ -2,7 +2,8 @@
  * The MPU6050 sensor is a three-axis gyroscope and a three-axis accelerometer. It has 16 bit data output. Communication is provided using I2C. *
  * The value of the axes is regulated by the Kalman filter.                                                                                     *
  * Datasheet for MPU6080: https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Register-Map1.pdf                                      *
- *                                                                                                                                              */
+ * There are numbers used directly. These can lead to magic numbers.                                                                            *                                                                                                                                             
+ */
 
 #include <math.h> //Library with math functions
 #include "mpu6050.h" //Required library for mpu6050 sensor
